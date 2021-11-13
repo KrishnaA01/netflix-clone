@@ -2,7 +2,6 @@ import "./Navbar.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-// rfc to create simple react component
 export default function Navbar() {
   return (
     <nav className="Navbar">
