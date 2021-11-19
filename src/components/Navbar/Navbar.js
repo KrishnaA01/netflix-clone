@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="Logo">
         <Link to="/">
           {" "}
-          <img width={100} height={30} alt="" src="https://play-lh.googleusercontent.com/0rgPYj0GwZ6txpYZrzoMdhwzqg7vY6C9B-Ol7jlaz-Ox2rgpD4Tr82ZgDqkirrEohbGm=w412-h220-rw"
+          <img width={100} height={30} alt="Netflix-logo" src="https://play-lh.googleusercontent.com/0rgPYj0GwZ6txpYZrzoMdhwzqg7vY6C9B-Ol7jlaz-Ox2rgpD4Tr82ZgDqkirrEohbGm=w412-h220-rw"
           />
         </Link>
       </div>

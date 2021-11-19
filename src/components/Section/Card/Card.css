@@ -13,3 +13,13 @@
 .Card:hover {
   transform:scale(1.2)
 }
+
+.Card h4 {
+  background-color: rgba(0, 0, 0, 0.268);
+  color: white;
+}
+
+.Card-link {
+  text-decoration: none;
+
+}

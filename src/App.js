@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
+import Movie from "./pages/Movie/Movie"
 import TvShows from "./pages/TvShows/TvShows";
 import NotFound from "./pages/NotFound/NotFound";
 
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
+          <Route path="/movie/:pageId" element={<Movie/>} />
           <Route path="/tv-shows" element={<TvShows />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
