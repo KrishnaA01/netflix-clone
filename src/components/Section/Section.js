@@ -4,8 +4,9 @@ import "./Section.css";
 import Slider from "react-slick";
 
 
-export default function Section({ title, data }) {
-  //let title = "Action Movies";
+
+export default function Section({ title, data, content }) {
+  // let title = "Action Movies";
   console.log(title, data);
   return (
     <section className="Section">
@@ -15,7 +16,7 @@ export default function Section({ title, data }) {
         {data?.map((currentValue)=>
         (
 
-          <Card  key={currentValue.id} movie={currentValue} />
+          <Card  content = {content} key={currentValue.id} movie={currentValue} />
         )
           
         )}

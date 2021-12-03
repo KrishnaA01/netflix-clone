@@ -4,10 +4,10 @@ import "./Card.css";
 
 
 
-export default function Card({ movie }) {
+export default function Card({ movie, content }) {
   console.log("Movie===>", movie.image);
   return (
-    <Link className="Card-link" to={"/movie/" + movie.id} > 
+    <Link className="Card-link" to={`${content}/${movie.id}`} > 
 
     <article className="Card" style={{backgroundImage:`url(${movie.image})`}} >
 
