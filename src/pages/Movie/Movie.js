@@ -19,7 +19,8 @@ export default function Movie() {
     }, [pageId])
 
 
-    return  movieObject ?(
+    if  (movieObject) {
+        return (
         <div className="Movie" 
         style={{backgroundImage:`url(${movieObject.image})`}}>
             <h2> {movieObject.title} </h2>
@@ -45,7 +46,9 @@ export default function Movie() {
             </iframe>
             </Modal>
         </div>
-    ) : (
-        <div>Loading...</div>
-    )
-}
+        );
+    } else {
+        return <div>Loading....</div>;
+      }
+    }
+ 
