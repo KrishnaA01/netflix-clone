@@ -5,7 +5,6 @@ import "./Card.css";
 
 
 export default function Card({ movie, content }) {
-  console.log("Movie===>", movie.image);
   return (
     <Link className="Card-link" to={`${content}/${movie.id}`} > 
 
