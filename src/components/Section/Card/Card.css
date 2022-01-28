@@ -1,6 +1,5 @@
 .Card {
-  /* border: 1px solid blue; */
-  height: 150px;
+  height: 200px;
   padding: 5px;
   text-align: center;
   background-size: cover;
@@ -9,17 +8,11 @@
   transition: all 0.2s ease-in-out;
 }
 
-
 .Card:hover {
-  transform:scale(1.2)
+  transform: scale(1.2);
 }
 
 .Card h4 {
-  background-color: rgba(0, 0, 0, 0.268);
+  background-color: rgba(0, 0, 0, 0.205);
   color: white;
-}
-
-.Card-link {
-  text-decoration: none;
-
 }

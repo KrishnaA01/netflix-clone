@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="Logo">
         <Link to="/">
           {" "}
-          <img width={100} height={30} alt="Netflix-logo" src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"
+          <img width={100} height={60} alt="Netflix-logo" src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"
           />
         </Link>
       </div>
